@@ -1,18 +1,18 @@
-import './App.css'
-import './index.css'
+import { Routes, Route } from "react-router-dom";
+import Login from "./pages/Login";
+import Dashboard from "./pages/Dashboard";
 import { app } from "./firebase/config";
 
+// Temporary test log — this should appear in the browser console
 console.log("Firebase connected:", app.name);
 
-
-function App() { 
-  return ( 
-    <div className="min-h-screen bg-slate-900 flex items-center justify-center"> 
-      <h1 className="text-3xl font-bold text-white"> 
-        Plow Me – Day 1 Setup 
-      </h1> 
-    </div> 
-  ); 
-} 
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<Login />} />
+      <Route path="/dashboard" element={<Dashboard />} />
+    </Routes>
+  );
+}
 
 export default App;
