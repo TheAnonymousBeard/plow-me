@@ -15,7 +15,7 @@ export default function Login() {
 
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      window.location.href = "/dashboard";
+      window.location.href = "/business-dashboard";
     } catch (err) {
       setError("Invalid email or password");
     }
