@@ -1,16 +1,48 @@
-# React + Vite
+# Plow Me – Smart Snow Route & Service Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, mobile‑friendly web application built to help snow‑removal professionals streamline routes, track service times, and give customers real‑time visibility into their plow history.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ❄️ Overview
 
-## React Compiler
+Plow Me is a lightweight **React + Vite + TailwindCSS + Firebase** application designed for real‑world snow‑plow operations. Drivers can build customer lists, plan efficient routes, track time spent at each stop, and log add‑ons like brine or salt. Customers can log in to view their service history, creating transparency and trust.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### **Customer Management**
+- Add and edit customer details  
+- Store addresses with geocoding support  
+
+### **Route Planning**
+- Select customers for a plow session  
+- Generate optimized route order  
+- Mobile‑friendly UI for in‑truck use  
+
+### **Service Tracking**
+- Start/stop timers for each address  
+- Log brine, salt, and additional charges  
+- Save session history for reporting  
+
+### **Client Portal**
+- Secure customer login  
+- View timestamps, duration, and add‑ons  
+
+### **Cloud‑Powered Backend**
+- Firebase Authentication  
+- Firestore database  
+- Optional Cloud Functions for route optimization  
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|-------|------------|
+| **Frontend** | React, Vite, TailwindCSS |
+| **Backend** | Firebase Authentication, Firestore |
+| **Routing** | React Router |
+| **Maps / Optimization** | Google Maps API or Mapbox Directions API |
+| **Hosting** | Firebase Hosting |
