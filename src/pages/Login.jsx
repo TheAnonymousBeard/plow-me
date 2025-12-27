@@ -1,4 +1,4 @@
-const LoginPage = () => {
+const Login = () => {
   return (
     <div className="min-h-screen flex flex-col justify-center px-4 bg-slate-900">
       <div className="max-w-sm w-full mx-auto bg-white rounded-xl shadow p-6">
@@ -22,4 +22,4 @@ const LoginPage = () => {
   );
 };
 
-export default LoginPage;
+export default Login;

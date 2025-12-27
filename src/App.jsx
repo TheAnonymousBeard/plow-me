@@ -3,9 +3,6 @@ import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
 import { app } from "./firebase/config";
 
-// Temporary test log — this should appear in the browser console
-console.log("Firebase connected:", app.name);
-
 function App() {
   return (
     <Routes>
