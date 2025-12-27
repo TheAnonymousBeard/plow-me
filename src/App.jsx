@@ -1,5 +1,9 @@
 import './App.css'
 import './index.css'
+import { app } from "./firebase/config";
+
+console.log("Firebase connected:", app.name);
+
 
 function App() { 
   return ( 
